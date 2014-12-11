@@ -1,0 +1,124 @@
+/*******top-postS*****/
+
+.top-post {
+    padding: 0;
+}
+
+.top-post img {
+    width: 360px;
+    height: 200px;
+}
+
+.list-post {
+    padding: 0;
+}
+
+.list-post ul {
+    padding-left: 4%;
+}
+
+.list-post ul li {
+    margin-top: 1.5%;
+}
+
+.list-post ul li:first-child {
+    margin-top: 0%;
+}
+
+.list-post ul li:last-child {
+    list-style: none;
+    text-align: right;
+}
+.view-morre {
+    color: #990B92;
+}
+.view-morre:hover {
+    color: #D811D7;
+}
+/***HEADER-CATEGORY***/
+h3.header-category {
+    padding: .5% 0 .5% 3%;
+    margin: 0;
+    background: #8C0B8B;
+    color: #fff;
+    font-size: 25px;
+}
+
+/***VIDEO-TUT***/
+.videos ul li img {
+    height: 120px;
+    width: 100%;
+
+}
+
+.videos ul li:first-child {
+    margin-top: 0;
+}
+
+.videos ul li {
+    display: block;
+    margin-top: 5%;
+    border-top:1px solid #ddd;
+}
+.videos ul li:last-child, .videos ul li:first-child {
+    border: none;
+}
+/***LIST NEW -- LIST VIDEO***/
+.list-new {
+    list-style: none;
+    padding-left: 0;
+}
+
+.list-new li {
+    display: inline-block;
+    margin: 0 2% 3% 0;
+    width: 30%;
+}
+
+/******VIDEO*****/
+.title-video {
+    font-size: 12px;
+    font-weight: bold;
+    padding: 2% 0;
+}
+
+/****Custom****/
+body {
+    background-color: #F5F7FA !important;
+}
+
+.uk-thumbnail {
+    border-radius: 0;
+}
+
+.uk-overlay .fa {
+    color: #D811D7;
+}
+
+.well {
+    border-radius: 0 !important;
+}
+.text-danger {
+    color: #720972 !important;
+}
+@media (max-width: 768px) {
+    body {
+        font-size: 17px !important;
+    }
+    .title-video {
+        font-size: 16px;
+    }
+    .list-new li {
+        display: block;
+        margin-top: 3%;
+        width: 100%;
+    }
+    .left-content .list-post {
+        border-top:1px solid #ddd;
+        padding-top:2%;
+    }
+    .videos ul li img {
+        width: 360px;
+        height: 200px;
+    }
+}
